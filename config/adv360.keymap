@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL          &kp N1      &kp N2       &kp N3        &kp N4  &kp N5                     &tog 1                                                                     &mo 3  &kp N6        &kp N7       &kp N8      &kp N9         &kp N0  &kp MINUS
- &kp LCTRL           &kp Q       &kp W        &kp F         &kp P   &kp B                      &none                                                                     &none   &kp J         &kp L        &kp U       &kp Y  &kp SEMICOLON   &kp BSLH
-   &kp TAB  &mt LEFT_GUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T   &kp G                      &none    &kp ESC  &kp LALT                   &kp LGUI    &kp RCTRL        &none   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I     &mt RGUI O    &kp SQT
- &kp LSHFT           &kp Z       &kp X        &kp C         &kp D   &kp V                                        &kp HOME                  &kp PG_UP                             &kp K         &kp H    &kp COMMA     &kp DOT       &kp FSLH  &kp RSHFT
-     &mo 2       &kp GRAVE    &kp CAPS     &kp LEFT     &kp RIGHT                    &lt 4 BACKSPACE  &lt 5 DEL   &kp END                  &kp PG_DN  &lt 5 ENTER  &lt 4 SPACE                &kp UP     &kp DOWN    &kp LBKT       &kp RBKT      &mo 2
+      &kp EQUAL          &kp N1         &kp N2       &kp N3        &kp N4  &kp N5                   &tog 1                                                              &mo 3  &kp N6        &kp N7       &kp N8      &kp N9         &kp N0        &kp MINUS
+      &kp LCTRL           &kp Q          &kp W        &kp F         &kp P   &kp B                    &none                                                              &none   &kp J         &kp L        &kp U       &kp Y  &kp SEMICOLON         &kp BSLH
+        &kp TAB  &mt LEFT_GUI A     &mt LALT R  &mt LCTRL S  &mt LSHIFT T   &kp G                    &none  &kp ESC  &kp LALT                  &kp LGUI  &kp RCTRL      &none   &kp M  &mt RSHIFT N  &mt RCTRL E  &mt RALT I     &mt RGUI O          &kp SQT
+ &kp LEFT_SHIFT           &kp Z          &kp X        &kp C         &kp D   &kp V                                    &kp HOME                     &mo 4                         &kp K         &kp H    &kp COMMA     &kp DOT       &kp FSLH  &kp RIGHT_SHIFT
+          &mo 2     &kp PAGE_UP  &kp PAGE_DOWN     &kp LEFT     &kp RIGHT                    &kp BACKSPACE  &kp DEL   &kp END                     &mo 5  &kp ENTER  &kp SPACE                &kp UP     &kp DOWN    &kp LBKT       &kp RBKT            &mo 2
             >;
         };
 
@@ -80,21 +80,21 @@
 
         layer_sym1 {
             bindings = <
-  &none             &none              &none           &none            &none        &none            &none                                                   &none      &none     &none      &none                 &none                  &none   &none
-  &none   &kp EXCLAMATION             &kp AT        &kp HASH       &kp DOLLAR  &kp PERCENT            &none                                                   &none  &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none
-  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp PIPE            &none   &none   &none                   &none   &none   &none      &kp H     &kp J      &kp K                 &kp L          &kp BACKSLASH   &none
-  &none             &none              &none           &none            &none    &kp TILDE                            &none                   &none                  &kp GRAVE     &none      &none                 &none                  &none   &none
-  &none             &none              &none           &none            &none                         &none   &none   &none                   &none   &none   &none                &none      &none                 &none                  &none   &none
+  &none             &none              &none           &none            &none        &none             &none                                                   &none      &none     &none      &none                 &none                  &none   &none
+  &none   &kp EXCLAMATION             &kp AT        &kp HASH       &kp DOLLAR  &kp PERCENT             &none                                                   &none  &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none
+  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE     &kp PIPE             &none  &trans  &trans                  &trans  &trans   &none      &kp H     &kp J      &kp K                 &kp L          &kp BACKSLASH   &none
+  &none             &none              &none           &none            &none    &kp TILDE                            &trans                  &trans                  &kp GRAVE     &none      &none                 &none                  &none   &none
+  &none             &none              &none           &none            &none                         &trans  &trans  &trans                  &trans  &trans  &trans                &none      &none                 &none                  &none   &none
             >;
         };
 
         layer_sym2 {
             bindings = <
-  &none         &none           &none         &none         &none         &none            &none                                                   &none         &none         &none          &none         &none         &none   &none
-  &none         &none           &none         &none         &none         &none            &none                                                   &none         &none         &none          &none         &none         &none   &none
-  &none  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none   &none   &none                   &none   &none   &none  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
-  &none     &kp MINUS  &kp UNDERSCORE      &kp PLUS     &kp EQUAL        &kp LT                            &none                   &none                        &kp GT     &kp COLON  &kp SEMICOLON       &kp DQT       &kp SQT   &none
-  &none         &none           &none         &none         &none                          &none   &none   &none                   &none   &none   &none                       &none          &none         &none         &none   &none
+  &none         &none           &none         &none         &none         &none             &none                                                   &none         &none         &none          &none         &none         &none   &none
+  &none         &none           &none         &none         &none         &none             &none                                                   &none         &none         &none          &none         &none         &none   &none
+  &none  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5             &none  &trans  &trans                  &trans  &trans   &none  &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &none
+  &none     &kp MINUS  &kp UNDERSCORE      &kp PLUS     &kp EQUAL        &kp LT                            &trans                  &trans                        &kp GT     &kp COLON  &kp SEMICOLON       &kp DQT       &kp SQT   &none
+  &none         &none           &none         &none         &none                          &trans  &trans  &trans                  &trans  &trans  &trans                       &none          &none         &none         &none   &none
             >;
         };
 
