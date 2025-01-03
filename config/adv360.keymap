@@ -82,7 +82,7 @@
             bindings = <
   &none            &none          &none              &none             &none        &none             &none                                                   &none      &none             &none              &none                 &none                  &none   &none
   &none  &kp EXCLAMATION         &kp AT           &kp HASH        &kp DOLLAR  &kp PERCENT             &none                                                   &none  &kp CARET          &kp AMPS          &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &none
-  &none         &kp PLUS      &kp EQUAL     &kp UNDERSCORE         &kp MINUS    &kp TILDE             &none  &trans  &trans                  &trans  &trans   &none      &kp H             &kp J              &kp K                 &kp L              &kp COLON   &none
+  &none         &kp PLUS      &kp EQUAL     &kp UNDERSCORE         &kp MINUS    &kp TILDE             &none  &trans  &trans                  &trans  &trans   &none      &kp H             &kp J              &kp K                 &kp L          &kp BACKSPACE   &none
   &none         &kp PIPE  &kp BACKSLASH  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE    &kp GRAVE                            &trans                  &trans                      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp LEFT_BRACE        &kp RIGHT_BRACE   &none
   &none            &none          &none              &none             &none                         &trans  &trans  &trans                  &trans  &trans  &trans                        &none              &none                 &none                  &none   &none
             >;
